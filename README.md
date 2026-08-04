@@ -76,5 +76,5 @@
 
 ## 🔗 Project Artifacts
 - Source code: [__]
-- Colab: [__]
-- Slide/เอกสารนำเสนอ: [__]
+- Colab: https://colab.research.google.com/drive/1Po4k61CxOdssY45PaP_AYCiqXUcV7LPN?usp=sharing
+- Slide/เอกสารนำเสนอ: https://canva.link/kwlbuj8jvqkjtkz
