@@ -23,27 +23,28 @@
 
 ## 🗂️ Kanban Backlog & Run
 
-Workflow: Backlog → To Do → In Progress (WIP limit = 1) → Testing & Logging → Done
+**Workflow:** `Backlog` → `To Do` → `In Progress (WIP limit = 1)` → `Testing & Logging` → `Done`
 
-Task	Feature	Persona เป้าหมาย	LO ที่เกี่ยวข้อง	สถานะ
-TASK-01	Room Config (ROOMS tuple คงที่) + Booking Store (bookings list of dict)	ระบบ/ทั้งหมด	LO1 (Data Structures)	Done
-TASK-02	Show Rooms (show_rooms, วนลูปแสดงรายชื่อห้องจาก tuple)	ผู้ใช้งาน (ก่อนจอง)	LO1 & LO3	Done
-TASK-03	Book Room Engine (book_room, ตรวจสอบห้องมีจริง + จองซ้ำวัน/เวลา ก่อนเพิ่มเข้า list)	ผู้ใช้งาน (ต้องการจอง)	LO4 (Defensive Coding)	Done
-TASK-04	View Bookings (view_bookings, enumerate แสดงรายการจองทั้งหมด)	ผู้ใช้งาน/ผู้ดูแล	LO2 (List Manipulation)	Done
-TASK-05	Cancel Booking (cancel_booking, ตรวจสอบลำดับที่ถูกต้องก่อน pop)	ผู้ใช้งาน (ยกเลิกจอง)	LO4 (Defensive Coding)	Done
-TASK-06	Search Bookings (search_bookings, list comprehension ค้นหาตามห้อง/วันที่)	ผู้ใช้งาน (ค้นหาการจอง)	LO2 (List Comprehension)	Done
-TASK-07	Interactive CLI Interface (main, while True + if/elif/else)	ทุกผู้ใช้งาน	LO3 & LO4 (UI/Error)	Done
-TASK-08	บันทึก AI Log และ Reflection	ทั้งกลุ่ม	LO5 (Process Tracking)	In Progress
+| Task | Feature | Persona เป้าหมาย | LO ที่เกี่ยวข้อง | สถานะ |
+|------|---------|-------------------|-------------------|--------|
+|TASK-01|	Room Config (`ROOMS` tuple คงที่) + Booking Store (`bookings` list of dict)|	ระบบ/ทั้งหมด|	LO1 (Data Structures)|	Done|
+|TASK-02|	Show Rooms (`show_rooms`, วนลูปแสดงรายชื่อห้องจาก tuple)|	ผู้ใช้งาน (ก่อนจอง)|	LO1 & LO3|	Done|
+|TASK-03|	Book Room Engine (`book_room`, ตรวจสอบห้องมีจริง + จองซ้ำวัน/เวลา ก่อนเพิ่มเข้า list)|	ผู้ใช้งาน (ต้องการจอง)|	LO4 (Defensive Coding)|	Done|
+|TASK-04|	View Bookings (`view_bookings`, enumerate แสดงรายการจองทั้งหมด)|	ผู้ใช้งาน/ผู้ดูแล	|LO2 (List Manipulation)|	Done|
+|TASK-05|	Cancel Booking (`cancel_booking`, ตรวจสอบลำดับที่ถูกต้องก่อน `pop`)|	ผู้ใช้งาน| (ยกเลิกจอง)	LO4 (Defensive Coding)	|Done|
+|TASK-06|	Search Bookings (`search_bookings`, list comprehension ค้นหาตามห้อง/วันที่)|	ผู้ใช้งาน| (ค้นหาการจอง)	LO2 (List Comprehension)|	Done|
+|TASK-07|	Interactive CLI Interface (`main`, while True + if/elif/else)|	ทุกผู้ใช้งาน|	LO3 & LO4 (UI/Error)	|Done|
+|TASK-08|	บันทึก AI Log และ Reflection|	ทั้งกลุ่ม	|LO5 (Process Tracking)	|In Progress|
 
 รอบการทำงานแต่ละ Task:
 หยิบ 1 Task (WIP=1) → ถาม AI (บันทึกใน learning_log) → ทดสอบโค้ด (เช็ค edge case) → บันทึก & Commit (อัปเดต Changelog)
 
 ## 🎯 Group Learning Outcomes
-LO1 (เลือกโครงสร้างข้อมูลให้เหมาะสม): รายชื่อห้องประชุมที่มีอยู่จริงและไม่ควรแก้ไขระหว่างรันโปรแกรมใช้ tuple (ROOMS) ส่วนรายการจองที่ต้องเพิ่ม/ลบ/แก้ไขได้ตลอดใช้ list of dictionaries (bookings)
-LO2 (จัดการ Collection): ใช้ enumerate แสดงลำดับรายการจอง (view_bookings) และ list comprehension กรองผลลัพธ์ตามคำค้นหา (search_bookings)
-LO3 (ควบคุมการทำงานแบบโต้ตอบ): สร้างเมนูด้วย while True และ if/elif/else ให้ผู้ใช้เลือกได้ต่อเนื่องจนกด "5" เพื่อ break ออกจากโปรแกรม
-LO4 (เขียนโค้ดแบบป้องกันข้อผิดพลาด): ตรวจสอบชื่อห้องมีอยู่จริง (in ROOMS), ข้อมูลไม่ว่างก่อนบันทึก, ตรวจการจองซ้ำวัน/เวลาเดียวกันก่อนเพิ่มรายการ, และตรวจ isdigit() + ช่วงลำดับก่อน pop ในการยกเลิกจอง
-LO5 (บันทึกกระบวนการเรียนรู้): เก็บ prompt ที่ใช้ถาม AI และการแก้บั๊กไว้ใน LEARNINGLOG.md
+- LO1 (เลือกโครงสร้างข้อมูลให้เหมาะสม): รายชื่อห้องประชุมที่มีอยู่จริงและไม่ควรแก้ไขระหว่างรันโปรแกรมใช้ `tuple` (`ROOMS`) ส่วนรายการจองที่ต้องเพิ่ม/ลบ/แก้ไขได้ตลอดใช้ `list of dictionaries` (`bookings`)
+- LO2 (จัดการ Collection): ใช้ `enumerate` แสดงลำดับรายการจอง (`view_bookings`) และ list comprehension กรองผลลัพธ์ตามคำค้นหา (`search_bookings`)
+- LO3 (ควบคุมการทำงานแบบโต้ตอบ): สร้างเมนูด้วย `while True` และ `if/elif/else` ให้ผู้ใช้เลือกได้ต่อเนื่องจนกด "5" เพื่อ `break` ออกจากโปรแกรม
+- LO4 (เขียนโค้ดแบบป้องกันข้อผิดพลาด): ตรวจสอบชื่อห้องมีอยู่จริง (`in ROOMS`), ข้อมูลไม่ว่างก่อนบันทึก, ตรวจการจองซ้ำวัน/เวลาเดียวกันก่อนเพิ่มรายการ, และตรวจ `isdigit()` + ช่วงลำดับก่อน `pop` ในการยกเลิกจอง
+- LO5 (บันทึกกระบวนการเรียนรู้): เก็บ prompt ที่ใช้ถาม AI และการแก้บั๊กไว้ใน `LEARNINGLOG.md`
 
 ## 📊 Group Grading Rubric
 | หัวข้อประเมิน | ดีเยี่ยม (4) |	ดี (3) |	กำลังพัฒนา (2) |	ไม่ผ่าน (1-0) |
