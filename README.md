@@ -1,10 +1,13 @@
-ระบบจองห้องประชุม (Meeting Room Booking System)
-Mini Project — Script Programming (CP352301) Sec.[] | กลุ่ม [] | Session [__]
+# ระบบจองห้องประชุม (Meeting Room Booking System)
+
+## Mini Project — Script Programming (CP352301) Sec.1 | กลุ่ม 7 | Session 2
+
 👥 สมาชิกกลุ่มและหน้าที่
 ชื่อ-สกุล	เลขที่	หน้าที่
 [ชื่อ-สกุล]	[__]	Planner (วางแผน)
 [ชื่อ-สกุล]	[__]	Coder (โค้ด)
 [ชื่อ-สกุล]	[__]	Debugger (แก้บั๊ก)
+
 💡 หัวข้อ / Concept
 
 ระบบจองห้องประชุม (Meeting Room Booking System) เป็นโปรแกรม command-line ที่ให้ผู้ใช้งานดูรายชื่อห้องประชุมทั้งหมด ดูตารางการจองของห้องใดห้องหนึ่ง จองห้องประชุมในช่วงเวลาที่ต้องการ ยกเลิกการจอง และค้นหาการจองตามชื่อห้องหรือวันที่ ผ่านเมนูโต้ตอบแบบ while loop
