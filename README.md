@@ -1,6 +1,6 @@
 # ระบบจองห้องประชุม (Meeting Room Booking System)
 
-## Mini Project — Script Programming (CP352301) Sec.1 | กลุ่ม 7 | Session 2
+## Mini Project — Script Programming (CP352301) Sec.1 | กลุ่ม 7 | Session 1
 
 ## สมาชิกกลุ่มและหน้าที่
 
@@ -36,8 +36,8 @@
 |TASK-07|	Interactive CLI Interface (`main`, while True + if/elif/else)|	ทุกผู้ใช้งาน|	LO3 & LO4 (UI/Error)	|Done|
 |TASK-08|	บันทึก AI Log และ Reflection|	ทั้งกลุ่ม	|LO5 (Process Tracking)	|In Progress|
 
-รอบการทำงานแต่ละ Task:
-หยิบ 1 Task (WIP=1) → ถาม AI (บันทึกใน learning_log) → ทดสอบโค้ด (เช็ค edge case) → บันทึก & Commit (อัปเดต Changelog)
+**รอบการทำงานแต่ละ Task:**
+`หยิบ 1 Task (WIP=1)` → `ถาม AI (บันทึกใน learning_log)` → `ทดสอบโค้ด (เช็ค edge case)` → `บันทึก & Commit (อัปเดต Changelog)`
 
 ## 🎯 Group Learning Outcomes
 - LO1 (เลือกโครงสร้างข้อมูลให้เหมาะสม): รายชื่อห้องประชุมที่มีอยู่จริงและไม่ควรแก้ไขระหว่างรันโปรแกรมใช้ `tuple` (`ROOMS`) ส่วนรายการจองที่ต้องเพิ่ม/ลบ/แก้ไขได้ตลอดใช้ `list of dictionaries` (`bookings`)
@@ -62,8 +62,6 @@
 | ปริมาณ คุณภาพ และธรรมาภิบาลของงาน | 30% |  |  |
 | ภาพรวมงานกลุ่มทั้งหมด | 10% |  |  |
 | **รวม (ถ่วงน้ำหนัก)** | **100%** |  | |
-
-
 
 ## Individual Self-Assessment (0–10)
 
