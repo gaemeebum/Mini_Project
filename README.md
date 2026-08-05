@@ -1,6 +1,6 @@
 # ระบบจองห้องประชุม (Meeting Room Booking System)
 
-## Mini Project — Script Programming (CP352301) Sec.1 | กลุ่ม 7 | Session 1
+## Mini Project — Script Programming (CP352301) Sec.1 | กลุ่ม 7 | Session 2
 
 ## สมาชิกกลุ่มและหน้าที่
 
