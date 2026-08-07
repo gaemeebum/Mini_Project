@@ -75,6 +75,6 @@
 *(เกณฑ์อ้างอิงอาจารย์ ข้อ 5.2 ระดับบุคคล: การนำเสนอ 30% + ความตั้งใจ/ทุ่มเท 30% + ความคิดสร้างสรรค์ 30% + ภาพรวม 10%)*
 
 ## 🔗 Project Artifacts
-- Source code: //https://github.com/gaemeebum/Mini_Project/blob/5da0465f554830f1a8e9c123bd02aef34fd85931/Sourcecode.ipynb
+- Source code: https://github.com/gaemeebum/Mini_Project/blob/d6c480286b6b3065b83450454cd8ac51de6d8014/Sourcecode.ipynb
 - Colab: https://colab.research.google.com/drive/1Po4k61CxOdssY45PaP_AYCiqXUcV7LPN?usp=sharing
 - Slide/เอกสารนำเสนอ: https://canva.link/kwlbuj8jvqkjtkz
